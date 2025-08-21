@@ -1,6 +1,10 @@
 wwwroot\imagens\0e82befe-501e-4d30-9e2d-3d36c11a7134.png
+wwwroot\imagens\20b65366-a22d-4fd9-ae9d-8a0770444ca4.png
+wwwroot\imagens\2ac4671f-b3d6-4470-baf4-f695f17f644a.png
+wwwroot\imagens\467721b9-44d0-4afe-8ae3-23534231f087.png
 wwwroot\imagens\4dea87a3-cc1c-4bc4-923e-cf9ae83c2b80.png
 wwwroot\imagens\4f2475fc-0794-4af3-b930-72615010a85a.png
 wwwroot\imagens\5dfad902-edc5-42d4-99be-e80a728af948.png
+wwwroot\imagens\6115aa7e-71f7-4dd2-bb0a-a594ea98f2f4.png
 wwwroot\imagens\c745cdf0-87a8-443a-a95f-73472bd92506.png
 wwwroot\imagens\fac9fb7f-b931-4f22-b9cc-0d925ca51b15.png

@@ -26,11 +26,14 @@ public partial class GaleriaOnlineDBContext : DbContext
     {
         modelBuilder.Entity<Imagem>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Imagens__3214EC07801CA28D");
+            entity.ToTable("Imagem"); // força usar o nome da tabela singular
+            entity.HasKey(e => e.Id);
         });
 
         OnModelCreatingPartial(modelBuilder);
     }
+
+
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

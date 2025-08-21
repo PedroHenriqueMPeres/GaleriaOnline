@@ -32,6 +32,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//!!!!!!!!!!!   !A sequencia Importa muito   !!!!!!!!!!!!
+
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
 
 app.UseCors("CorsPolicy");

@@ -38,7 +38,7 @@ namespace GaleriaOnline.WebApi.Controllers
         [HttpPost("upload")]
         public async Task<IActionResult> UploadImagem([FromForm] ImagemDTO dto)
         {
-            if (dto.Arquivo == null || dto.Arquivo.Length == 0 || string.IsNullOrWhiteSpace(dto.Nome))
+            if (dto.Arquivo == null || dto.Arquivo.Length == 0 || String.IsNullOrWhiteSpace(dto.Nome))
                 return BadRequest("Deve ser enviado um nome e uma imagem");
 
             var extensao = Path.GetExtension(dto.Arquivo.FileName);
